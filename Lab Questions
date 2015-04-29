@@ -1,0 +1,24 @@
+Question 1: (5 point for each table) Let a and b be objects of type bool. Using the information you read at the top of page 11 of Guttag's book, complete the following tables for the operators and, or and not. An example table is shown below.
+    
+"and" operator:
+a is True; b is True; a and b is ==> true
+a is True; b is False; a and b is ==> false
+a is False; b is False; a and b is ==> false
+
+"or" operator:
+a is True; b is True; a or b is ==> true
+a is True; b is False; a or b is ==> true
+a is False; b is False; a or b is ==> false
+
+"not" operator:
+a = True; not a is ==> false
+a = False; not a is ==> true
+
+Question 2: (3 point) The values of the expressions `i/j` and `i//j` are the same when i and j are both of type int. Is this statement true or false? Explain. What is the difference between Python 2 and 3 for these expressions?
+    This statement is false because if they are both integers that don't divide into an integer, then i//j will return an integer while i/j will return a float (6//4=1 where 6/4=1.5). In python2, division involving two integers will return an integer, and division involving 2 floats will return a float, whereas in python3 it will always return a float no matter what. Floats must always have a decimal as they are more precise, so a float and integer can be of equal numerical value, but different notation such as "0" and "0.0".
+
+
+Question 3: (2 point) Explain in your own words why the command `print("5+3="+5+3)`  gives an error while the command `print("5+3="+str(5+3))` produces the output `5+3=8`. To answer this question, explore what type of object the command `str(5+3)` outputs and how is that different from how `5+3` evaluates.
+    So in programming semantics are extremely important. 
+
+
